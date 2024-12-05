@@ -1,0 +1,29 @@
+.header {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo img {
+  vertical-align: middle;
+}
+
+.header__nav-menu {
+  display: flex;
+  gap: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-menu__item a {
+  color: var(--pot-black);
+}
+
+.header__menu {
+  display: flex;
+  gap: 30px;
+}/*# sourceMappingURL=header.css.map */

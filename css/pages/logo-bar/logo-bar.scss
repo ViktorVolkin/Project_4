@@ -1,0 +1,22 @@
+.logo-bar{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.logo-bar__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-bar__title{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--mysterious-waters);
+}
+
+.logo-bar__menu{
+    display: flex;
+    gap: 40px;
+}
