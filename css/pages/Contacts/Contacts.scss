@@ -1,0 +1,42 @@
+.Contacts__container{
+    background-color:#F4F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Contacts__text_container{
+        text-align: center;
+        max-width: 605px;
+        max-height: 164px;
+        margin-bottom: 40px;
+
+        .Contacts__text{
+        color: var(--Black-Out);
+        font-size: 16px;
+        font-weight: 400;        
+        }
+        .Contacts__title{
+            color:var(--Black-Out);
+            font-size: 32px;
+            font-weight: 700;            
+        }
+    }
+    .getContact{
+        width: 472px;
+        height: 67px;        
+    }
+    .Register{
+        width: 125px;
+        height: 52px;
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        background-color: var(--Calypso-Green);
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.relative{
+    position: relative;
+}
