@@ -1,0 +1,74 @@
+.categories__container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    .categories__title{
+        text-align: center;
+        color: var(--pot-black);
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .categories__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+    height: 36px;
+    .categories__menu_item{
+        color: var(--Pinehurst);
+        font-size: 24px;
+        font-weight: 400;
+        &:hover{
+            color: var(--tiber);
+            text-decoration: underline;
+        }
+    }
+    }
+    .categories__rooms{
+    display: flex;
+    margin-top: 80px;
+    .categories__rooms_office{
+        width: 577px;
+        height: 410px;
+        margin-right: 135px;
+    }
+    .categories__rooms_list{
+        width: 475px;
+        height: 337px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px;
+        margin-top: 41px;
+        .rooms__list-item{
+            width: 222px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1.5px solid #D9DCE5;
+            &:nth-of-type(4){
+                background-color: var(--tiber);
+                .rooms__item_text{
+                    margin-top: 13px;
+                    color:white;
+                    font-size: 16px;
+                    font-weight: 500;                
+                }
+            }
+            .rooms__item_image{
+                width: 24px;
+                height: 24px;
+            }
+            .rooms__item_text{
+                margin-top: 13px;
+                color: var(--Grey);
+                font-size: 16px;
+                font-weight: 500;                
+            }
+        }
+    }
+}
+}
